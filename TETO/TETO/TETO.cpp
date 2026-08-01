@@ -19,8 +19,8 @@ int count = 0;
 //ミノの形状を定義する
 enum {
 	SHAPE_I,
-	SHARP_O,
-	SHARP_S,
+	SHAPE_O,
+	SHAPE_S,
 	SHAPE_Z,
 	SHAPE_J,
 	SHAPE_L,
@@ -50,7 +50,7 @@ SHAPE shapes[SHAPE_MAX] = {
 			{0, 0, 0, 0}
 		}
 	},
-	//SHARP_O,
+	//SHAPE_O,
 	{
 		2,2,//int width, height;
 		//int pattern[SHAPE_HEIGHT_MAX][SHAPE_WIDTH_MAX];
@@ -59,7 +59,7 @@ SHAPE shapes[SHAPE_MAX] = {
 			{1, 1},
 		}
 	},
-//SHARP_S,
+	//SHAPE_S,
 	{
 	3,3,//int width, height;
 	//int pattern[SHAPE_HEIGHT_MAX][SHAPE_WIDTH_MAX];
@@ -69,7 +69,7 @@ SHAPE shapes[SHAPE_MAX] = {
 			{0, 0, 0}
 		}
 	},
-//SHAPE_Z,
+	//SHAPE_Z,
 	{
 	3,3,//int width, height;
 	//int pattern[SHAPE_HEIGHT_MAX][SHAPE_WIDTH_MAX];
@@ -99,7 +99,7 @@ SHAPE shapes[SHAPE_MAX] = {
 			{0, 0, 0}
 		}
 	},
-//SHAPE_T,
+	//SHAPE_T,
 	{
 		3,3,//int width, height;
 		//int pattern[SHAPE_HEIGHT_MAX][SHAPE_WIDTH_MAX];
